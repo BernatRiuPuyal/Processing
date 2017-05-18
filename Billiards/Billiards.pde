@@ -6,6 +6,10 @@ color vermell;
 Ball pilota;
 Table taula;
 
+int numBalls;
+
+Ball[] balls = new Ball[numBalls];
+
 void setup(){ // SETUP
   
   size(1800,1000);
@@ -16,7 +20,7 @@ void setup(){ // SETUP
   
   vermell = color(255,8,5);
   
-  pilota = new Ball(500,500,friction,vermell);
+  pilota = new Ball(500,500,friction,vermell,taula);
   
   
   
