@@ -28,7 +28,7 @@ class Table {
   void paint(){
     
     
-    
+    stroke(0);
     strokeWeight(2);
         
     
